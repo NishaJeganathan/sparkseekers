@@ -1,0 +1,262 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Edu VIC WA NT Beginner', sans-serif;
+}
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.fixed-button:hover {
+    background-color: #0056b3;
+}
+
+.sticky-header{
+    position: sticky;
+    top: 0; 
+    background-color:#14222a;
+    align-content: flex-end;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.sticky-header nav a {
+    
+    float: right;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.sticky-header nav a:hover {
+    color: #ddd;
+}
+.header-image{
+    height: 50px;
+    float: left;
+}
+.com{
+    height:inherit;
+    width: auto;
+    padding: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+.text{
+    color:darkmagenta;
+}
+.part-1{
+    background-color: cornflowerblue;
+    background-image: url('background.png');
+    background-size: cover;
+    color: white;
+    align-content: center;
+}
+.complete{
+    background-color: deepskyblue;
+    display: flex;
+}
+.left{
+    float: left;
+    padding: 50px;
+    align-content: center;
+    font-size: 25px;
+}
+.right{
+    background-color: cornflowerblue;
+    float: right;
+    padding : 50px; 
+}
+.part-2{
+    background-color: cornflowerblue;
+    align-content: center;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display:table;
+    justify-content: center;
+    
+}
+.part-3
+{
+    background-color: cornflowerblue;
+    align-content: center;
+    color: white;
+    padding:80px;
+    display: flex;
+    justify-content: center;
+}
+.books{
+    height: 100px;
+}
+.column {
+    width: inherit;
+    padding-top: 100px; 
+    padding-bottom: 100px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 10px; 
+    background-color: deepskyblue;
+    box-sizing: border-box; 
+    font-size: 25px;
+    text-align: center;
+    border: solid;
+    display: table-cell;
+    border: 15px solid cornflowerblue; 
+}
+.column:hover{
+    background-color: #2085af;
+    transform: :scale(3);
+}
+
+.button {
+    display: inline-block; 
+    padding: 10px 20px;    
+    font-size: 16px;       
+    color: white;          
+    background-color:darkblue; 
+    text-align: center;    
+    text-decoration: none; 
+    border-radius: 5px;    
+    transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+    background-color: black; 
+}
+.box{
+    width: 65vw;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    background-color: deepskyblue;
+}
+.comn{
+    height: auto;
+    overflow-y: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+.addhead{
+    background-color: deepskyblue;
+    color: black;
+    font-size: 50px;
+}
+.bold{
+    color: black;
+}
+.site-footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    position: relative;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.footer-content {
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.site-footer p {
+    margin: 10px 0;
+    font-size: 14px; 
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.social-links li {
+    display: inline-block; /*side by side*/
+    margin: 0 10px; 
+}
+
+.social-links a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 16px; 
+}
+
+.social-links a:hover {
+    color: #ffcc00; 
+}
+.container{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+#review1{
+    background-color: cornflowerblue;
+    padding: 25px;
+}
+#review2{
+    background-color: #2085af;
+    padding: 25px
+}
+.table{
+    width: auto;
+    padding: 20px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+.table h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.table label{
+    display: block;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.table input[type="text"]
+.table input[type="email"],
+.table input[type="text"] 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#plan{
+    background-size: 10px;
+        padding: 10px;
+        padding-right: 30px; 
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        font-size: 16px;
+        outline: none;
+        width: 200px;
+        font-style: inherit;
+}
+.hold
+{
+    font-size: 25px;
+    background-color: cornflowerblue;
+    width: 60vw;
+    text-align: center;
+}
